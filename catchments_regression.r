@@ -3,6 +3,7 @@ library(readr)
 library(ggplot2)
 library(betareg)
 library(broom)
+library(devtools)
 
 #read in the data and convert some string columns to factors
 catchments <- read_csv('catchments.csv') %>%
